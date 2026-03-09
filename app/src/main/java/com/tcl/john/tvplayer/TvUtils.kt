@@ -15,6 +15,7 @@ object TvUtils {
     private var TAG = TvUtils::class.java.name
 
     fun getStoragePath(mContext: Context): String {
+    /*
         var targetPath = ""
         val mStorageManager = mContext
                 .getSystemService(Context.STORAGE_SERVICE) as StorageManager
@@ -66,6 +67,8 @@ object TvUtils {
         }
 
         return targetPath
+        */
+        return "/storage/emulated/0/Movies";
     }
 
     private fun isSdcard(path: String): Boolean {
