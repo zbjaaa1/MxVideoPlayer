@@ -33,7 +33,7 @@ public class TvActivity extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) actionBar.hide();
 
-        mVideoPlayerWidget = findViewById(R.id.mpw_video_player);
+        mVideoPlayerWidget = (MxTvPlayerWidget) findViewById(R.id.mpw_video_player);
 
         // 查找U盘
         String usbPath = findUsbWithVideo();
@@ -174,7 +174,7 @@ public class TvActivity extends AppCompatActivity {
 
     // 恢复播放进度
     private void restoreProgress(String path){
-
+/*
         SharedPreferences sp = getSharedPreferences("video",MODE_PRIVATE);
 
         long pos = sp.getLong(path,0);
@@ -183,6 +183,7 @@ public class TvActivity extends AppCompatActivity {
 
             mVideoPlayerWidget.seekTo((int)pos);
         }
+        */
     }
 
     // 保存进度
