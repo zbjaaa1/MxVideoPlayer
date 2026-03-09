@@ -2,7 +2,7 @@
 
 buildscript {
     repositories {
-        google()
+        //google()
         jcenter()
         maven { url "https://maven.aliyun.com/repository/public" }
     }
@@ -18,7 +18,7 @@ buildscript {
 
 allprojects {
     repositories {
-        google()
+        //google()
         jcenter()
         maven { url "https://maven.aliyun.com/repository/public" }
     }
