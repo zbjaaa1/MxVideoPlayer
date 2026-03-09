@@ -26,7 +26,6 @@ ext {
 
 android {
     compileSdkVersion 33
-    buildToolsVersion "24.0.3"
     
 
     defaultConfig {
