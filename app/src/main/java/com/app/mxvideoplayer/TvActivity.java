@@ -28,7 +28,8 @@ public class TvActivity extends AppCompatActivity {
 
         // 全屏
         View decorView = getWindow().getDecorView();
-        decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_FULLSCREEN);
+        int option = View.SYSTEM_UI_FLAG_FULLSCREEN;
+        decorView.setSystemUiVisibility(option);
 
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) actionBar.hide();
@@ -188,7 +189,7 @@ public class TvActivity extends AppCompatActivity {
 
     // 保存进度
     private void saveProgress(){
-
+/*
         if(videoList.size()==0) return;
 
         String path = videoList.get(index);
@@ -198,6 +199,7 @@ public class TvActivity extends AppCompatActivity {
         long pos = mVideoPlayerWidget.getCurrentPosition();
 
         sp.edit().putLong(path,pos).apply();
+        */
     }
 
     @Override
