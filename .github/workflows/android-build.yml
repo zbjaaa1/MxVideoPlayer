@@ -20,7 +20,7 @@ jobs:
       
       - run: |
           ./gradlew clean
-          ./gradlew assembleDebug
+          ./gradlew assembleRelease
 
 
 
