@@ -25,13 +25,13 @@ ext {
 }
 
 android {
-    compileSdkVersion 24
+    compileSdkVersion 33
     buildToolsVersion "24.0.3"
     
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 24
+        targetSdkVersion 33
         versionCode 1
         versionName "1.2.1"
         ndk {
