@@ -33,6 +33,10 @@ android {
         targetSdkVersion 24
         versionCode 1
         versionName "1.2.1"
+        ndkVersion "23.1.7779620"
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
     }
     buildTypes {
         release {
